@@ -18,3 +18,32 @@ int resultat = 0;
 
     }
 }
+
+    public static void main (String[] args) {
+    Scanner input = new Scanner(System.in);
+    double[] numbers = new double[5];
+    for (int i = 0; i < numbers.length; i++) {
+        System.out.println("Please enter number");
+        numbers[i] = input.nextDouble(); }
+}
+
+
+
+class Array { public static void main(String a[]){
+    Scanner input = new Scanner(System.in);
+
+System.out.println("Enter the size of an Array");
+
+int num = input.nextInt();
+System.out.println("Enter the Element "+num+" of an Array");
+
+double[] numbers = new double[num];
+
+for (int i = 0; i < numbers.length; i++) {
+    System.out.println("Please enter number");
+    numbers[i] = input.nextDouble(); }
+for (int i = 0; i < numbers.length; i++) {
+    if ( (i%3) !=0){ System.out.print("");
+    System.out.print(numbers[i]+"\t"); }
+    else { System.out.println("");
+    System.out.print(numbers[i]+"\t"); } } }
